@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>cell0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{59, 1}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{117, 1}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{175, 1}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 59}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{59, 59}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{117, 59}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{175, 59}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 117}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+		<key>cell9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{59, 117}, {57, 57}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 57}}</string>
+			<key>sourceSize</key>
+			<string>{57, 57}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+	</dict>
+</dict>
+</plist>

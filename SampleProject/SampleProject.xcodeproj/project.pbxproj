@@ -133,6 +133,9 @@
 		348CC6F313A5202F00E28D98 /* SWScrollViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC6F213A5202F00E28D98 /* SWScrollViewTest.m */; };
 		348CC6F713A5292200E28D98 /* SWTableViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC6F613A5292200E28D98 /* SWTableViewTest.m */; };
 		348CC6FA13A5294600E28D98 /* SWMultiColumnTableViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 348CC6F913A5294600E28D98 /* SWMultiColumnTableViewTest.m */; };
+		D397FB5A13D12CDB00AC2882 /* SWSimpleTableViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D397FB5913D12CDB00AC2882 /* SWSimpleTableViewTest.m */; };
+		D397FB5E13D1355100AC2882 /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = D397FB5C13D1355100AC2882 /* cell.png */; };
+		D397FB5F13D1355100AC2882 /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D397FB5D13D1355100AC2882 /* cell.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -392,6 +395,10 @@
 		348CC6F613A5292200E28D98 /* SWTableViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewTest.m; sourceTree = "<group>"; };
 		348CC6F813A5294500E28D98 /* SWMultiColumnTableViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMultiColumnTableViewTest.h; sourceTree = "<group>"; };
 		348CC6F913A5294600E28D98 /* SWMultiColumnTableViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMultiColumnTableViewTest.m; sourceTree = "<group>"; };
+		D397FB5813D12CDB00AC2882 /* SWSimpleTableViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSimpleTableViewTest.h; sourceTree = "<group>"; };
+		D397FB5913D12CDB00AC2882 /* SWSimpleTableViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSimpleTableViewTest.m; sourceTree = "<group>"; };
+		D397FB5C13D1355100AC2882 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		D397FB5D13D1355100AC2882 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cell.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +473,8 @@
 		348CC55B13A51BF000E28D98 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D397FB5C13D1355100AC2882 /* cell.png */,
+				D397FB5D13D1355100AC2882 /* cell.plist */,
 				348CC55C13A51BF000E28D98 /* Default.png */,
 				348CC55E13A51BF000E28D98 /* fps_images.png */,
 				348CC56013A51BF000E28D98 /* Icon-72.png */,
@@ -823,6 +832,8 @@
 				348CC6F613A5292200E28D98 /* SWTableViewTest.m */,
 				348CC6F813A5294500E28D98 /* SWMultiColumnTableViewTest.h */,
 				348CC6F913A5294600E28D98 /* SWMultiColumnTableViewTest.m */,
+				D397FB5813D12CDB00AC2882 /* SWSimpleTableViewTest.h */,
+				D397FB5913D12CDB00AC2882 /* SWSimpleTableViewTest.m */,
 			);
 			name = "Test Cases";
 			sourceTree = "<group>";
@@ -887,6 +898,8 @@
 				348CC56B13A51BF000E28D98 /* Icon@2x.png in Resources */,
 				348CC56E13A51BF000E28D98 /* iTunesArtwork in Resources */,
 				348CC6D813A51E5700E28D98 /* RootViewController.xib in Resources */,
+				D397FB5E13D1355100AC2882 /* cell.png in Resources */,
+				D397FB5F13D1355100AC2882 /* cell.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,6 +1018,7 @@
 				348CC6F313A5202F00E28D98 /* SWScrollViewTest.m in Sources */,
 				348CC6F713A5292200E28D98 /* SWTableViewTest.m in Sources */,
 				348CC6FA13A5294600E28D98 /* SWMultiColumnTableViewTest.m in Sources */,
+				D397FB5A13D12CDB00AC2882 /* SWSimpleTableViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,6 +1116,7 @@
 				348CC6BA13A51BF200E28D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

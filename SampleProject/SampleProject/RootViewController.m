@@ -10,6 +10,7 @@
 #import "SWScrollViewTest.h"
 #import "SWTableViewTest.h"
 #import "SWMultiColumnTableViewTest.h"
+#import "SWSimpleTableViewTest.h"
 
 @interface RootViewController ()
 @property (nonatomic, retain) CCScene *mostRecentScene;
@@ -84,16 +85,32 @@
 - (IBAction)showMultiColumnTableViewScene:(id)sender {
 	[[CCDirector sharedDirector] replaceScene:[SWMultiColumnTableViewTest scene]];
 }
-- (IBAction)toggleScene:(id)sender {
+
+- (IBAction)showSimpleTableViewScene:(id)sender
+{
+   [[CCDirector sharedDirector] replaceScene:[SWSimpleTableViewTest scene]];
+}
+
+- (IBAction)toggleScene:(id)sender 
+{
 	CCDirector *director = [CCDirector sharedDirector];
 	CCScene    *scene    = [director runningScene];
 	Class      currentSceneClass = [[[scene children] lastObject] class];
 	
-	if (currentSceneClass == [SWScrollViewTest class]) {
+	if (currentSceneClass == [SWScrollViewTest class]) 
+   {
+      [self showSimpleTableViewScene:sender];
+   }
+   else if(currentSceneClass == [SWSimpleTableViewTest class])
+   {
 		[self showTableViewScene:sender];
-	} else if (currentSceneClass == [SWTableViewTest class]) {
+	} 
+   else if (currentSceneClass == [SWTableViewTest class]) 
+   {
 		[self showMultiColumnTableViewScene:sender];
-	} else if (currentSceneClass == [SWMultiColumnTableViewTest class]) {
+	} 
+   else if (currentSceneClass == [SWMultiColumnTableViewTest class]) 
+   {
 		[self showScrollViewScene:sender];
 	} 
 }
