@@ -1,6 +1,12 @@
-/.DS_Store
+build
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
 .DS_Store
-/SampleProject/SampleProject.xcodeproj/xcuserdata/saim.xcuserdatad/xcdebugger/
-/SampleProject/SampleProject.xcodeproj/xcuserdata/saim.xcuserdatad/xcschemes/SampleProject.xcscheme
-/SampleProject/SampleProject.xcodeproj/project.xcworkspace/xcuserdata/saim.xcuserdatad/UserInterfaceState.xcuserstate
-/SampleProject/SampleProject.xcodeproj/xcuserdata/saim.xcuserdatad/xcschemes/xcschememanagement.plist
+*.o
+*.swp
+*.pyc
+xcuserdata
+*.xcworkspace
+*.mayaSwatches
