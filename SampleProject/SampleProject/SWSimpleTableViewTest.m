@@ -55,7 +55,8 @@
    
    [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"cell.plist"];
    
-   myTable.position = ccp(40, 0);
+   CGSize s = [[CCDirector sharedDirector] winSize];
+   myTable.position = ccp(s.width * 0.5f, s.height * 0.5f);
    
    [myTable reloadData];
    
